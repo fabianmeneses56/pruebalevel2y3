@@ -23,27 +23,23 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { NavigationContainer, TabActions } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import {NavigationContainer, TabActions} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import tabArtists from './Components/tabArtists';
 import tabTracks from './Components/tabTracks';
 
 export default class App extends React.Component {
-  render(){
+  render() {
     const Tab = createBottomTabNavigator();
     return (
       <>
-       <NavigationContainer>
+        <NavigationContainer>
           <Tab.Navigator>
-            <Tab.Screen name="tabArtists" component={tabArtists}/>
-            <Tab.Screen name="tabTracks" component={tabTracks}/>
+            <Tab.Screen name="Artists" component={tabArtists} />
+            <Tab.Screen name="Tracks" component={tabTracks} />
           </Tab.Navigator>
         </NavigationContainer>
       </>
     );
   }
-
-};
-
-
-
+}

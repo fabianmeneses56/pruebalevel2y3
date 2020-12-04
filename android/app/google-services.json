@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "164981650983",
+    "project_id": "pruebareact-bc534",
+    "storage_bucket": "pruebareact-bc534.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164981650983:android:4dd5008ef5759b27a48002",
+        "android_client_info": {
+          "package_name": "com.pruebalevel2y3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164981650983-rj80loj4h1mpd5lp934f5jdfaqnm7sgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO2SU29m3e1h7J0i-lQN7RB4lKuRU9JYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164981650983-rj80loj4h1mpd5lp934f5jdfaqnm7sgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
